@@ -19,16 +19,16 @@ class Team:
         ##Initializes class with data being a row of data, in the order above
         self.TeamName= data[0]
         self.Tempo=data[1]
-        self.RankTempo=data[2]
+        self.RankTempo=int(data[2])
         self.AdjTempo=data[3]
-        self.RankAdjTempo=data[4]
+        self.RankAdjTempo=int(data[4])
         self.OE=data[5]
-        self.RankOE=data[6]
+        self.RankOE=int(data[6])
         self.AdjOE=data[7]
-        self.RankAdjOE=data[8]
+        self.RankAdjOE=int(data[8])
         self.DE=data[9]
-        self.RankDE=data[10]
+        self.RankDE=int(data[10])
         self.AdjDE=data[11]
-        self.RankAdjDE=data[12]
-        self.EM=data[13]
-        self.RankEM=data[14]
+        self.RankAdjDE=int(data[12])
+        self.EM=float(data[13])
+        self.RankEM=int(data[14])
